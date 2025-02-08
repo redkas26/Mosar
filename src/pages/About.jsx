@@ -2,7 +2,7 @@
 import React from 'react';
 import '../styles/About.css';
 import { light } from '@mui/material/styles/createPalette';
-import design from '../images/Design.jpg'
+import design from '../images/design.jpg'
 import team from '../images/team.jpg'
 import pens from '../images/pens.jpg'
 import table from '../images/table.jpg'
