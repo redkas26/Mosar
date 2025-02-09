@@ -43,6 +43,23 @@
     font-size: 1.5rem;
     font-weight: bold;
   }
+
+  @keyframes colorChange {
+    0% {
+      color: #676c67; /* Vert néon */
+    }
+    50% {
+      color: #b7b7b7; /* Rose néon */
+    }
+    100% {
+      color: #007bff; /* Bleu néon */
+    }
+  }
+  
+  .navbar-logo {
+    animation: colorChange 5s infinite;
+  }
+  
   
   .navbar-links {
     display: flex;
@@ -89,7 +106,7 @@
     .navbar-links.active {
       display: flex;
       text-align: center;
-      
+      z-index: 1;      
     }
   
     .navbar-toggle {

@@ -11,7 +11,7 @@ const Navbar = ({ toggleTheme, isDarkTheme }) => {
 
   return (
     <nav className={`navbar ${isDarkTheme ? 'dark' : 'light'}`}>
-      <div className="navbar-logo">MOSAR</div>
+      <div className="navbar-logo">MOSAR CONSULTING</div>
       <div className={`navbar-links ${isOpen ? '' : 'active'}`}>
         <a href="/">Accueil</a>
         <a href="/about">À propos</a>
